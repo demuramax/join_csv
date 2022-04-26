@@ -11,4 +11,3 @@ def join_csv(path1, path2, column_name, join_type='left'):
 print(join_csv(sys.argv[1], sys.argv[2], sys.argv[3]))
 
 
-print('Arguments list:', str(sys.argv), 'Number of arguments:', len(sys.argv))
